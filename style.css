@@ -7,12 +7,28 @@ content{
 }
 body{
 	margin-top: 0px;
-	margin-left: 5px;
-	
+	margin-left: 5px;	
 }
 
 
+
 @media screen and (max-width: 480px){
-	content{width:100%;}
+	.img_sizeA{
+		width:350px;
+		height: 280px;
+	}
+	.img_sizeB{
+		width:350px;
+		height: 330px;
+	}
+	.video_size{
+		max-height:250px;
+		max-width:320px;
+		margin-left: 0px;
+	}
+	.text_type{
+		text-align: center;
+	}
+	
 }
 
